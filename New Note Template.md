@@ -1,7 +1,4 @@
-{{date}}
-{{time}}
+<% tp.date.now("YYYY-MM-DD HH:mm") %>
 ## Task Log
-\```tasks
-done on {{date}}
-\```
+
 ## Related
