@@ -21,20 +21,15 @@ hide backlink
 ```
 
 ## Task Log
-\```tasks
-\```
 
 
 ## Related Links
 
 
 ## Recurring
-\```tasks
 - [ ] write todo list 📅 <% tp.date.now("YYYY-MM-DD") %>
-- [ ] daily journal 📅 <% tp.date.now("YYYY-MM-DD") %>
-- [ ] duolingo 📅 <% tp.date.now("YYYY-MM-DD") %>
-- [ ] ADD_YOUR_OWN 📅 <% tp.date.now("YYYY-MM-DD") %>
-``
+- [ ] example: due monday next week, scheduled for sunday coming up ⏳ <% tp.date.weekday("YYYY-MM-DD",6) %> 📅 <% tp.date.weekday("YYYY-MM-DD",7) %>
+
 
 ## Completed Today
 ```tasks
